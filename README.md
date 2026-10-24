@@ -3,8 +3,6 @@
 
 A Streamlit application that answers questions about campus regulations using a local document knowledge base, while showing a second answer from the same language model without retrieved documents. The side-by-side comparison helps users see how retrieval-augmented generation (RAG) can ground answers in supplied sources.
 
-> **Project status:** This README documents the behavior visible in the supplied Python source. It does not claim that the application has been tested in a particular environment.
-
 ---
 
 ## Table of Contents
