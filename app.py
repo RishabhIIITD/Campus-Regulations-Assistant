@@ -37,7 +37,7 @@ st.set_page_config(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FOLDER_PATH = os.path.join(BASE_DIR, "Open Source Info")
+FOLDER_PATH = os.path.join(BASE_DIR, "Campus Regulations Info")
 INDEX_PATH = os.path.join(BASE_DIR, "faiss_index")
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
@@ -375,7 +375,7 @@ def render_assistant_message(msg):
 # --------------------------------------------------
 
 def main():
-    st.title("RAG vs General LLM — Open Source Contribution")
+    st.title("Campus Regulations Assistant")
     st.caption(
         f"Both answers come from `{OLLAMA_MODEL}` running locally via "
         "Ollama. The only difference is that the left one is grounded in "
